@@ -9,7 +9,7 @@ export class User {
   name: string;
 
   @Prop({ required: true })
-  password: string;
+  password?: string;
 
   @Prop({ default: true })
   isActive: boolean;
